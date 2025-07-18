@@ -1,0 +1,43 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Seoge UI';
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(../images/fondo-principal.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+div {
+    padding: 10px 100px 100px 100px;
+    border: solid;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(50, 54, 66, 0.836);
+    height: auto;
+}
+
+p {
+    
+}
+
+label {
+    color: black;
+    font-size: 25PX;
+}
+
+label :hover {
+    color: rgb(158, 17, 29);
+    font-size: 25PX;
+}
+
+input {}
+
+button {}
