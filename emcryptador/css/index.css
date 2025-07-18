@@ -9,7 +9,9 @@ body {
     color: #333;
     background-image: url(../images/fondo-principal.png);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -24,9 +26,6 @@ div {
     height: auto;
 }
 
-p {
-    
-}
 
 label {
     color: black;
@@ -38,6 +37,10 @@ label :hover {
     font-size: 25PX;
 }
 
-input {}
+input {
+    font-size: 18px;
+}
 
-button {}
+button {
+    border-radius: 20cap;
+}
