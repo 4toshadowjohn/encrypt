@@ -1,5 +1,7 @@
 
 body {
+    margin: 0;
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +14,35 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    */
 }
 
+section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.img1 {
+    background-image: url(/images/BROUCHUREPRESENTACIÓN-1.jpg);
+}
+
+.img2 {
+    background-image: url(/images/BROUCHURE\ PRESENTACIÓN-2.jpg);
+}
+
+.img3 {
+    background-image: url(/images/BROUCHURE\ PRESENTACIÓN-3.jpg);
+}
+
+.img4 {
+    background-image: url(/images/BROUCHURE\ PRESENTACIÓN-4.jpg);
+}
+
+.img5 {
+    background-image: url(/images/BROUCHURE\ PRESENTACIÓN-5.jpg);
+}
 
 div {
     padding: 10px 100px 100px 100px;
