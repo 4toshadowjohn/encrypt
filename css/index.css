@@ -19,7 +19,7 @@ body {
 
 section {
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
