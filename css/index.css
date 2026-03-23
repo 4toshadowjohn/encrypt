@@ -63,12 +63,12 @@ nav button {
 
 #contenido {
     padding: 40px;
-    background: white;
+    background: black;
     margin: -50 auto 20 px;
     width: 90%;
     max-width: 1000px;
     border-radius:  10px;
-    box-shadow: 0 4px 10 px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
