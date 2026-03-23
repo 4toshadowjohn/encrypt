@@ -45,6 +45,7 @@ nav button {
 
 .hero {
     background-image: url(/images/BROUCHUREPRESENTACIÓN-1\ -\ copia.jpg);
+    background-size: contain;
     height: 670px;
     display: flex;
     align-items: center;
