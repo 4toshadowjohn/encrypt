@@ -61,6 +61,16 @@ nav button {
     border-radius: 10px;
 }
 
+#contenido {
+    padding: 40px;
+    background: white;
+    margin: -50 auto 20 px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius:  10px;
+    box-shadow: 0 4px 10 px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     background: #0b1c2c;
     color: white;
