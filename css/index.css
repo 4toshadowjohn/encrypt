@@ -54,6 +54,7 @@ nav button {
 }
 
 .hero h2 {
+    flex: none;
     background: rgba(0, 0, 0, 0.5);
     color: rgb(202, 35, 13);
     font-size: 30px;
