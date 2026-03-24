@@ -65,7 +65,7 @@ nav button {
 #contenido {
     font-size: 20px;
     padding: 40px;
-    background: white;
+    background: rgba(11, 48, 6, 0.795);
     margin: -50px auto 20px;
     width: 90%;
     max-width: 1200px;
