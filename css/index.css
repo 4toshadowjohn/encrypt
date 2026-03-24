@@ -45,8 +45,7 @@ nav button {
 
 .hero {
     background-image: url(/images/BROUCHUREPRESENTACIÓN-1\ -\ copia.jpg);
-    background-size: cover;
-    height: 670px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,17 +55,19 @@ nav button {
 
 .hero h2 {
     background: rgba(0, 0, 0, 0.5);
-    color: black;
+    color: rgb(202, 35, 13);
+    font-size: 40px;
     padding: 20px;
     border-radius: 10px;
 }
 
 #contenido {
+    font-size: 30px;
     padding: 40px;
     background: white;
     margin: -50px auto 20px;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
     border-radius:  10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
