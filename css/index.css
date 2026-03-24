@@ -52,7 +52,7 @@ nav button {
     color: white;
     text-align: center;
 }
-
+/*
 .hero h2 {
     flex: none;
     background: rgba(0, 0, 0, 0.5);
@@ -61,7 +61,7 @@ nav button {
     padding: 20px;
     border-radius: 10px;
 }
-
+*/
 #contenido {
     font-size: 30px;
     padding: 40px;
