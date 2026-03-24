@@ -52,16 +52,16 @@ nav button {
     color: white;
     text-align: center;
 }
-/*
+
 .hero h2 {
-    flex: none;
+    display: none;
     background: rgba(0, 0, 0, 0.5);
     color: rgb(202, 35, 13);
     font-size: 30px;
     padding: 20px;
     border-radius: 10px;
 }
-*/
+
 #contenido {
     font-size: 20px;
     padding: 40px;
