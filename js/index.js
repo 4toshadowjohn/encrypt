@@ -6,8 +6,6 @@ async function cargar (formulario) {
     } catch (error) {
         console.error('error', error)
     }
-    
-    
 }
 
 
