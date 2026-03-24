@@ -63,9 +63,10 @@ nav button {
 }
 
 #contenido {
+    color: white;
     font-size: 20px;
     padding: 40px;
-    background: rgba(11, 48, 6, 0.795);
+    background: rgba(2, 35, 15, 0.795);
     margin: -50px auto 20px;
     width: 90%;
     max-width: 1200px;
