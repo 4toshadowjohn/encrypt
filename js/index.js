@@ -1,3 +1,15 @@
+async function cargar (formulario) {
+    const res = await fetch ("./secciones/" + formulario + ".html")
+    const html = await res.text()
+    document.getElementById("contenido").innerHTML = html
+}
+ console.log('entro')
+
+
+
+
+
+ /*
 function emcryp ()  {
     let val = document.getElementById('cod')
     let valdes = document.getElementById('resul')
@@ -41,3 +53,4 @@ boton.addEventListener('click', emcryp)
 function esCaracterNumerico(caracter) {
     return /\d/.test(caracter)
 }
+    */
