@@ -1,9 +1,14 @@
 async function cargar (formulario) {
-    const res = await fetch ("./secciones/" + formulario + ".html")
-    const html = await res.text()
-    document.getElementById("contenido").innerHTML = html
+    try {
+        const res = await fetch ("./secciones/" + formulario + ".html")
+        const html = await res.text()
+        document.getElementById("contenido").innerHTML = html
+    } catch (error) {
+        console.error('error', error)
+    }
+    
+    
 }
- console.log('entro')
 
 
 
