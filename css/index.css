@@ -77,16 +77,51 @@ nav button {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
     background: #0b1c2c;
     color: white;
-    text-align: center;
-    padding: 15px;
+    padding: 40px 20px;
 }
 
-footer div {
-    padding: 20px;
+.titulopie {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulopie h2 {
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.contenpie {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contenpie div {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contenpie h2 {
+    margin-bottom: 15px;
+}
+
+.contenpie p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.contenpie hr {
+    width: 1px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
 }
 
 .card-mision {
@@ -122,7 +157,7 @@ footer div {
     color: #555;
 }
 
-/* efecto elegante al pasar el mouse */
+
 .card-mision:hover {
     transform: translateY(-5px);
     transition: 0.3s;
