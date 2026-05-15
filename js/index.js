@@ -9,9 +9,6 @@ async function cargar (formulario) {
 }
 
 
-
-
-
  /*
 function emcryp ()  {
     let val = document.getElementById('cod')
