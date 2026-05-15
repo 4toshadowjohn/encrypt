@@ -42,6 +42,7 @@ header h1 {
 }
 
 nav button {
+    font-family: url(/media/agatho/Agatho_\ Bold.otf);
     background: transparent;
     border: none;
     color: #454546;
