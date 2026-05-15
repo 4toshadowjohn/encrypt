@@ -23,12 +23,17 @@ body {
 }
 
 header {
-    background: #0b1c2c;
-    color: white;
+    background: #FFFFFF;
+    color: #454546;
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header img {
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 header h1 {
