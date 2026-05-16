@@ -1,2 +1,3 @@
 serviceid: service_hbwa28u
 template id: template_f7ampah
+public key: eqqqV0dxV2vCT6fKx
