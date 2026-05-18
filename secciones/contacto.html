@@ -1,7 +1,5 @@
 
 <!-- FORMULARIO DE CONTACTO -->
-
-
 <div style="max-width:560px; margin:2rem auto;">
   <div style="margin-bottom:1rem;">
     <label for="from_name">Nombre</label>
@@ -19,50 +17,7 @@
     <label for="message">Mensaje</label>
     <textarea id="message" placeholder="Escribe tu mensaje..." style="width:100%; box-sizing:border-box; min-height:140px;"></textarea>
   </div>
-  <script>
-  const PUBLIC_KEY   = ' eqqqV0dxV2vCT6fKx';
-  const SERVICE_ID   = 'service_hbwa28u';
-  const TEMPLATE_ID  = 'template_f7ampah';
-
-  emailjs.init(PUBLIC_KEY);
-
-  function sendEmail() {
-    const name    = document.getElementById('from_name').value.trim();
-    const email   = document.getElementById('from_email').value.trim();
-    const subject = document.getElementById('subject').value.trim();
-    const message = document.getElementById('message').value.trim();
-    const btn     = document.getElementById('sendBtn');
-    const status  = document.getElementById('statusMsg');
-
-    if (!name || !email || !subject || !message) {
-      status.className = 'status err';
-      status.textContent = 'Por favor, completa todos los campos.';
-      return;
-    }
-
-    btn.disabled = true;
-    btn.innerHTML = 'Enviando...';
-    status.className = 'status';
-
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, { from_name: name, from_email: email, subject, message })
-      .then(() => {
-        status.className = 'status ok';
-        status.textContent = '¡Mensaje enviado!';
-        document.getElementById('from_name').value  = '';
-        document.getElementById('from_email').value = '';
-        document.getElementById('subject').value    = '';
-        document.getElementById('message').value    = '';
-      })
-      .catch(() => {
-        status.className = 'status err';
-        status.textContent = 'Error al enviar. Verifica tu configuración.';
-      })
-      .finally(() => {
-        btn.disabled = false;
-        btn.innerHTML = 'Enviar mensaje';
-      });
-  }
-</script>
+ 
   <button onclick="sendEmail()" id="sendBtn" style="width:100%; padding:10px; cursor:pointer;">
     Enviar mensaje
   </button>

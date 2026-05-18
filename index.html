@@ -84,6 +84,50 @@
                 <iframe src="/media/BROUCHURE PRESENTACIÓN.pdf" width="100%" height="600px"></iframe>
 -->
         </main>
+         <script>
+  const PUBLIC_KEY   = ' eqqqV0dxV2vCT6fKx';
+  const SERVICE_ID   = 'service_hbwa28u';
+  const TEMPLATE_ID  = 'template_f7ampah';
+
+  emailjs.init(PUBLIC_KEY);
+
+  function sendEmail() {
+    const name    = document.getElementById('from_name').value.trim();
+    const email   = document.getElementById('from_email').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const btn     = document.getElementById('sendBtn');
+    const status  = document.getElementById('statusMsg');
+
+    if (!name || !email || !subject || !message) {
+      status.className = 'status err';
+      status.textContent = 'Por favor, completa todos los campos.';
+      return;
+    }
+
+    btn.disabled = true;
+    btn.innerHTML = 'Enviando...';
+    status.className = 'status';
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, { from_name: name, from_email: email, subject, message })
+      .then(() => {
+        status.className = 'status ok';
+        status.textContent = '¡Mensaje enviado!';
+        document.getElementById('from_name').value  = '';
+        document.getElementById('from_email').value = '';
+        document.getElementById('subject').value    = '';
+        document.getElementById('message').value    = '';
+      })
+      .catch(() => {
+        status.className = 'status err';
+        status.textContent = 'Error al enviar. Verifica tu configuración.';
+      })
+      .finally(() => {
+        btn.disabled = false;
+        btn.innerHTML = 'Enviar mensaje';
+      });
+  }
+</script>
     </body>
 
 </html>
