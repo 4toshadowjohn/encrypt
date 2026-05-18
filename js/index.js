@@ -7,6 +7,6 @@ async function cargar (formulario, btn) {
         console.error('error', error)
     }
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    btn.currentTarget.classList.add('active');
+    btn.classList.add('active');
 }
 
