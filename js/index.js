@@ -1,4 +1,4 @@
-async function cargar (formulario) {
+async function cargar (formulario, btn) {
     try {
         const res = await fetch ("./secciones/" + formulario + ".html")
         const html = await res.text()
@@ -6,7 +6,7 @@ async function cargar (formulario) {
     } catch (error) {
         console.error('error', error)
     }
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    event.currentTarget.classList.add('active');
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.currentTarget.classList.add('active');
 }
 
