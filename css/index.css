@@ -84,7 +84,7 @@ header h1 {
     background-image: url(/images/la\ justicia\ es\ ciega.png);
     height: 500px;
     display: flex;
-    align-items: center;
+    align-items: left;
     padding-left: 80px;
 }
 
