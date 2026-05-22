@@ -14,8 +14,14 @@
             <img src="./media/unnamed.png"/>
             <nav>
                 <button class="nav-btn active" onclick="cargar('inicio', this)">INICIO</button>
-                <button class="nav-btn" onclick="cargar('mision', this)">NOSOTROS</button>
-                <button class="nav-btn" onclick="cargar('servicios', this)">AREAS PRACTICAS</button>
+                <div class="dropdown">
+                     <button class="nav-btn" onclick="toggleMenu()">NOSOTROS ▼</button>
+                        <ul class="submenu" id="submenu">
+                            <li onclick="cargar('nostros', this)" >Nosotros</li>
+                            <li onclick="cargar('mision', this)">Mision y vision</li>
+                        </ul>
+                </div>
+                <button class="nav-btn" onclick="cargar('servicios', this)">AREAS DE PRACTICA</button>
                 <button class="nav-btn" onclick="cargar('equipo', this)">EQUIPO</button>
                 <button class="nav-btn" onclick="cargar('contacto', this)">CONTACTO</button>
               

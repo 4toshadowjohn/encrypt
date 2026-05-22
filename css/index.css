@@ -46,7 +46,34 @@ header img {
     margin-left: 30px;
 }
 
+.dropdown {
+    position: relative;
+}
 
+.submenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    min-width: 180px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.submenu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background: #f0f0f0;
+}
+
+.submenu.show {
+    display: block;
+}
 
 .nav-btn {
     position: relative;

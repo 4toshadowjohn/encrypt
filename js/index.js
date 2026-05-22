@@ -10,3 +10,6 @@ async function cargar (formulario, btn) {
     btn.classList.add('active');
 }
 
+function toggleMenu () {
+    document.getElementById("submenu").classList.toggle("show")
+}
