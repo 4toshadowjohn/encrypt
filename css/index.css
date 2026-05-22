@@ -46,6 +46,10 @@ header img {
     margin-left: 30px;
 }
 
+nav {
+    display: flex;
+}
+
 .dropdown {
     position: relative;
 }
