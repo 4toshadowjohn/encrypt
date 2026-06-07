@@ -149,6 +149,14 @@ p {
     text-align: justify;
 }
 
+#conocemas {
+    width: 60px;
+    height: 20px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
 #contenido {
     font-size: 20px;
     padding: 40px;
