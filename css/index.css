@@ -145,6 +145,10 @@ nav {
     text-align: justify;
 }
 
+p {
+    text-align: justify;
+}
+
 #contenido {
     font-size: 20px;
     padding: 40px;
