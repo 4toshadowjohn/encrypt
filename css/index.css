@@ -282,7 +282,8 @@ footer {
 }
 
 .grid-item h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 100%;
+    color: #000000;
     margin: 0;
 }
