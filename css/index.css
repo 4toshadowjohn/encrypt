@@ -267,6 +267,7 @@ footer {
 }
 
 .grid-item {
+    display: flex;
     background-color: rgba(136, 26, 26, 0.521);
     color: blue;
     padding: 10px;
