@@ -275,3 +275,8 @@ footer {
     font-size: 1.5rem;
     border-radius: 5px;
 }
+
+.areas {
+    display: flex;
+    justify-content: center;
+}
