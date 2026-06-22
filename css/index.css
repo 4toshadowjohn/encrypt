@@ -267,8 +267,8 @@ footer {
 }
 
 .grid-item {
-    background-color: rgba(255, 253, 253, 0.521);
-    color: black;
+    background-color: rgba(136, 26, 26, 0.521);
+    color: blue;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
