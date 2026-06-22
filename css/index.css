@@ -282,6 +282,7 @@ footer {
 }
 
 .grid-item h2 {
+    font-family: 'Agatho', sans-serif;
     font-size: 1.1rem;
     width: 100%;
     color: #000000;
