@@ -261,8 +261,8 @@ footer {
 
 .grid-contenedor{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1 fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .grid-item {
