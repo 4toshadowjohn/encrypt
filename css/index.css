@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-    max-height: 50px; /* Asegura que el logo no rompa el header */
+    max-height: 80px; /* Asegura que el logo no rompa el header */
     width: auto;
 }
 
