@@ -207,9 +207,9 @@ p {
     padding: 0 20px;
     box-sizing: border-box;
 }
-
+/*
 .grid-item {
-    background: #ffffff; /* Añadido un fondo para notar la estructura */
+    background: #ffffff; 
     border: 1px solid #eef0f2;
     padding: 20px;
     border-radius: 6px;
@@ -219,6 +219,29 @@ p {
     text-align: center;
     min-height: 90px;
     box-sizing: border-box;
+}
+*/
+/* Cambiamos la orientación de la celda a columna para poner el ícono arriba y el texto abajo */
+.grid-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 12px; /* Espacio entre el ícono y el texto h2 */
+    padding: 20px;
+    min-height: 120px; /* Le damos un poco más de altura para que quepa el ícono */
+}
+
+/* Estilo para los íconos */
+.icono-legal {
+    font-size: 28px;       /* Tamaño del ícono */
+    color: #c9a54c;        /* Tu dorado elegante */
+    transition: transform 0.3s ease;
+}
+
+/* Efecto visual opcional al pasar el mouse por la celda */
+.grid-item:hover .icono-legal {
+    transform: scale(1.15); /* El ícono se agranda un poquito */
 }
 
 .grid-item h2 {
