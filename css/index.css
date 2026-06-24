@@ -231,7 +231,7 @@ p {
     gap: 12px; /* Espacio entre el ícono y el texto h2 */
     padding: 20px;
     min-height: 120px; /* Le damos un poco más de altura para que quepa el ícono */
-    border: 1px solid #000000;
+    border: 1px solid #00000044;
     border-radius: 6px;
 }
 
