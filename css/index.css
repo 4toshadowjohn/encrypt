@@ -223,6 +223,7 @@ p {
 */
 /* Cambiamos la orientación de la celda a columna para poner el ícono arriba y el texto abajo */
 .grid-item {
+    text-align: center;
     display: flex;
     flex-direction: column; 
     justify-content: center;
