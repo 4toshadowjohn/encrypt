@@ -138,10 +138,13 @@ nav {
     text-align: justify;
 }
 
-p {
+.card-mision p {
     text-align: justify;
 }
 
+p {
+    text-align: center;
+}
 .conocemas {
     width: 160px;
     height: 50px;
@@ -334,4 +337,6 @@ footer {
     .contenpie div {
         padding: 0;
     }
+
+    .
 }
